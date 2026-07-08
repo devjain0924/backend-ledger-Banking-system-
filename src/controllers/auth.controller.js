@@ -68,12 +68,8 @@ async function userLoginController(req, res) {
             email:user.email,
             name:user.name,
         }
-    })
-
-
-   
+    }) 
 };
-
 module.exports ={
     userRegisterController,
     userLoginController
